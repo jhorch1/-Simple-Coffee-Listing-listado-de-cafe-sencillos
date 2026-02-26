@@ -16,7 +16,7 @@ La aplicación consume datos reales desde una API pública y permite filtrar caf
 
 - Estudiante
 María del Carmen Guerra Ruiz
-Jorge Arnulfo Montoya Manchola
+"Jorge Arnulfo Montoya Manchola"
 ##  Cómo Ejecutar
 
 ### Requisitos
@@ -44,7 +44,7 @@ Jorge Arnulfo Montoya Manchola
    npm run build
    ```
 
-## 🛠️ Tecnologías Usadas
+## Tecnologías Usadas
 
 - **React 19** - Librería de UI
 - **Vite 7** - Bundler y servidor de desarrollo
@@ -101,19 +101,3 @@ Botones para filtrar entre "All Products" y "Available Now" con estado activo vi
 https://raw.githubusercontent.com/devchallenges-io/web-dev-projects/master/data/simple-coffee-listing.json
 ```
 
-
-##  Notas
-
-- El código está escrito de forma clara y comprensible
-- Sin sobreingeniería ni patrones avanzados
-- Comentarios simples explicando la lógica
-- Estilos limpios con CSS puro
-- Sin Redux, Context API, ni librerías externas
-
-## 🔗 Links Útiles
-
-- [React Docs](https://react.dev)
-- [Vite Docs](https://vitejs.dev)
-- [devChallenges](https://devchallenges.io)
-
----
