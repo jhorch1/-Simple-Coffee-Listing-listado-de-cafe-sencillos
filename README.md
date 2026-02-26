@@ -1,8 +1,6 @@
-# ☕ Coffee Listing
 
-Una aplicación web moderna para explorar y filtrar una colección de cafés de alta calidad de todo el mundo.
 
-## 📋 Descripción
+##  Descripción
 
 **Coffee Listing** es una aplicación React creada con Vite que demuestra conceptos fundamentales de React como:
 - Hooks (`useState`, `useEffect`)
@@ -16,25 +14,21 @@ La aplicación consume datos reales desde una API pública y permite filtrar caf
 
 ## 👥 Integrantes
 
-- Estudiante de Desarrollo Web
-
-## 🚀 Cómo Ejecutar
+- Estudiante
+María del Carmen Guerra Ruiz
+Jorge Arnulfo Montoya Manchola
+##  Cómo Ejecutar
 
 ### Requisitos
 - Node.js (v16 o superior)
-- npm o yarn
+- npm 
 
 ### Pasos
 
-1. **Clonar o descargar el proyecto**
-   ```bash
-   cd coffee-listing
-   ```
-
 2. **Instalar dependencias**
-   ```bash
+  
    npm install
-   ```
+   
 
 3. **Ejecutar servidor de desarrollo**
    ```bash
@@ -58,33 +52,17 @@ La aplicación consume datos reales desde una API pública y permite filtrar caf
 - **CSS3** - Estilos responsivos
 - **Fetch API** - Consumo de APIs
 
-## 📁 Estructura del Proyecto
+##  Características
 
-```
-src/
-├── components/
-│   ├── Card.jsx         # Componente para mostrar una tarjeta de café
-│   ├── List.jsx         # Componente que mapea y renderiza cafés
-│   ├── FilterBar.jsx    # Barra de filtros
-│   └── Skeleton.jsx     # Estado de carga (skeleton loading)
-├── App.jsx              # Componente principal
-├── App.css              # Estilos de la aplicación
-├── index.css            # Estilos globales
-├── main.jsx             # Punto de entrada
-└── assets/              # Imágenes y recursos
-```
+ **Consumo de API Real** - Obtiene datos desde GitHub  
+ **Filtros Dinámicos** - Filtra por "Todos" o "Disponibles"  
+**Skeleton Loading** - Animación mientras carga  
+**Diseño Responsivo** - Funciona en móvil, tablet y desktop  
+**Grid Adaptable** - 1 columna móvil, 2 tablet, 3 desktop  
+ **Badges** - Muestra "Popular" y "Sold Out"  
+ **Sin Librerías Externas** - Solo React y CSS puro  
 
-## ✨ Características
-
-✅ **Consumo de API Real** - Obtiene datos desde GitHub  
-✅ **Filtros Dinámicos** - Filtra por "Todos" o "Disponibles"  
-✅ **Skeleton Loading** - Animación mientras carga  
-✅ **Diseño Responsivo** - Funciona en móvil, tablet y desktop  
-✅ **Grid Adaptable** - 1 columna móvil, 2 tablet, 3 desktop  
-✅ **Badges** - Muestra "Popular" y "Sold Out"  
-✅ **Sin Librerías Externas** - Solo React y CSS puro  
-
-## 🎨 Componentes
+##  Componentes
 
 ### Card.jsx
 Tarjeta reutilizable que muestra:
@@ -104,20 +82,9 @@ Botones para filtrar entre "All Products" y "Available Now" con estado activo vi
 ### Skeleton.jsx
 6 tarjetas simuladas con animación shimmer mientras se cargan los datos.
 
-### App.jsx
-Componente principal que maneja:
-- Estados: `coffees`, `loading`, `filter`
-- Fetch con `useEffect`
-- Filtrado de datos
-- Lifting state up del filtro
 
-## 📱 Responsividad
 
-- **Desktop (> 768px)**: Grid de 3 columnas
-- **Tablet (481px - 768px)**: Grid de 2 columnas
-- **Mobile (≤ 480px)**: 1 columna
-
-## 🎯 Conceptos React Implementados
+##  Conceptos React Implementados
 
 1. **useState** - Gestión de estado (cafés, loading, filtro)
 2. **useEffect** - Fetch de datos cuando monta el componente
@@ -128,36 +95,14 @@ Componente principal que maneja:
 7. **Eventos** - onClick en botones de filtro
 8. **Componentes Funcionales** - Todos los componentes son funcionales
 
-## 📊 API Utilizada
+##  API Utilizada
 
 ```
 https://raw.githubusercontent.com/devchallenges-io/web-dev-projects/master/data/simple-coffee-listing.json
 ```
 
-**Estructura de datos:**
-```javascript
-{
-  "id": number,
-  "name": string,
-  "image": string (URL),
-  "price": string,
-  "rating": number,
-  "votes": number,
-  "popular": boolean,
-  "available": boolean
-}
-```
 
-## 🖼️ Vista Previa
-
-La aplicación muestra:
-- Header con título y descripción
-- Barra de filtros con 2 opciones
-- Grid responsivo de tarjetas de café
-- Skeleton loading mientras fetch
-- Empty state si no hay resultados
-
-## 📝 Notas
+##  Notas
 
 - El código está escrito de forma clara y comprensible
 - Sin sobreingeniería ni patrones avanzados
@@ -172,5 +117,3 @@ La aplicación muestra:
 - [devChallenges](https://devchallenges.io)
 
 ---
-
-**Hecho con ❤️ como práctica de React**
